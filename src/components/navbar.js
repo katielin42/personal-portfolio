@@ -31,7 +31,7 @@ function Navbar() {
            <nav className = "navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        hi
+                        Katie's Portfolio ᕕ( ᐛ )ᕗ
                     </Link>
                     <div className='menu-icon' onClick = {handleClick}>
                     <i className={click? 'fas fa-times-circle': "fas fa-hamburger"}/>
@@ -44,8 +44,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className = 'nav-item'>
-                            <Link to= '/work-exp' className= 'nav-links' onClick={closeMobileMenu}>
-                                Work Experience
+                            <Link to= '/exp' className= 'nav-links' onClick={closeMobileMenu}>
+                                Professional Experience
                             </Link>
                         </li>
                         <li className = 'nav-item'>
