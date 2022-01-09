@@ -6,7 +6,7 @@ import './navbar.css';
 function Navbar() {
     //Handling state changes on click.
     const [click, setClick] = useState(false);
-    const[button, setButton] = useState(true);
+    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
@@ -44,12 +44,12 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className = 'nav-item'>
-                            <Link to= '/exp' className= 'nav-links' onClick={closeMobileMenu}>
+                            <Link to= '/Exp' className= 'nav-links' onClick={closeMobileMenu}>
                                 Professional Experience
                             </Link>
                         </li>
                         <li className = 'nav-item'>
-                            <Link to= '/projects' className= 'nav-links' onClick={closeMobileMenu}>
+                            <Link to= '/Projects' className= 'nav-links' onClick={closeMobileMenu}>
                                 Projects
                             </Link>
                         </li>

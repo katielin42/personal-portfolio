@@ -1,14 +1,18 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import {Container, Row, Col, Card} from "react-bootstrap";
+import test from '../../image-1.png'
 
-function Content() {
+export default function Exp(){
     return (
         
         <div >
             <br />
             <Container className='card-container'>
             <Card className="text-center">
+                <Card.Img src={test}>
+
+                </Card.Img>
                 <Card.Body>
                 <Card.Title style={{fontSize:"30px"}}> Who Am I? </Card.Title>
                 <Card.Text style={{fontSize:"20px"}}>
@@ -22,5 +26,3 @@ function Content() {
         </div>
     )
 }
-
-export default Content;

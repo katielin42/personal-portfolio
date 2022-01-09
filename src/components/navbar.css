@@ -115,6 +115,7 @@
     }
   
     .nav-links:hover {
+      
       color: #4086db;
       border-radius: 0;
     }
@@ -136,6 +137,10 @@
       cursor: pointer;
     }
   
+    .menu-icon:hover{
+      color: #4086db;
+      transition: all 0.2s ease-out;
+    }
     .fa-times {
       color: #fff;
       font-size: 2rem;
