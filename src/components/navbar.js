@@ -31,7 +31,7 @@ function Navbar() {
            <nav className = "navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        Katie ᕕ( ᐛ )ᕗ
+                        Katie Lin
                     </Link>
                     <div className='menu-icon' onClick = {handleClick}>
                     <i className={click? 'fas fa-times-circle': "fas fa-hamburger"}/>
@@ -54,7 +54,6 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {/* {button && <Button buttonStyle='btn--outline'> Projects</Button>} */}
                 </div>
             </nav> 
         </>
