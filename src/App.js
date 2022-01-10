@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Routes, Route} from
 import Home from './components/pages/Home'
 import Exp from './components/pages/Exp'
 import Projects from './components/pages/Projects'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/Exp' element={<Exp/>}/>
           <Route path='/Projects' element={<Projects/>}/>
         </Routes>
+      <Footer/>
     </Router>
     </>
   );
