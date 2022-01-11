@@ -1,3 +1,18 @@
+Personal Portfolio is deployed at: 
+https://kate-lin-portfolio.surge.sh/
+
+How to udpate surge: 
+1. commit changes. 
+2. npm run build
+3. cd build
+4. cp index.html 200.html
+5. surge
+
+Run website locally: 
+1. npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
