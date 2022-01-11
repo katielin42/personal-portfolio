@@ -11,8 +11,8 @@ export default function Exp(){
             <Card className="text-center">
                 <Card.Img src={test}>
                 </Card.Img>
-                <Card.Body>
-                <Card.Title style={{fontSize:"30px"}}> Hardware Reliability Engineering Intern @ Cruise (GM) </Card.Title>
+                <Card.Body >
+                <Card.Title style={{fontSize:"30px"} }> Hardware Reliability Engineering Intern @ Cruise (GM) </Card.Title>
                 <Card.Text style={{fontSize:"20px"}}>
                     <p> May - Aug 2021</p>
                     <p> The main project I worked consisted of creating a data pipeline to funnel raw data from board sensors in the cars to a centralised storage, and creating a front end visualisation dashboard in Looker. The main technologies used in this project is SQL ( Google BigQuery and Looker) to query and clean up the raw data. The data is then stored in a database up to 3 months for long term hardware component analysis. </p>
@@ -25,13 +25,15 @@ export default function Exp(){
             <br />
             <br />
             <Card className="text-center">
-                <Card.Img src={test}>
-                </Card.Img>
+                {/* <Card.Img src={test}> */}
+                {/* </Card.Img> */}
                 <Card.Body>
                 <Card.Title style={{fontSize:"30px"}}> Embedded Systems Firmware Intern @ Pygo.Inc</Card.Title>
                 <Card.Text style={{fontSize:"20px"}}>
                     <p> June - Sept 2020</p>
-                    <p> You will be able to find a brief showcase of my professional experiences, interests, and any relevant projects here! </p>
+                    <p> The main project I worked on for this local startup was writing & optimizing a program to parse incoming GPS signal strings on a STM microcontroller. The main language I used was embedded C++, and I also wrote unit tests in Python to test the functionality of said program. </p>
+                    <p> This program can interpret & process common incoming GPS strings with common information like latitude, position, date, time...etc. I used a queue to cache each char and process them individually instead of receiving the string at once and processing them altogether as the original version of the program was doing.</p>
+                    <p> Overall I was able to optimize memory usage by about 50% for the microcontroller.</p>
                 </Card.Text>
                 </Card.Body>
             </Card>

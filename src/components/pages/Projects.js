@@ -2,40 +2,109 @@ import React from 'react';
 import '../../App.css';
 import {Container, Row, Col, Card} from "react-bootstrap";
 import test from '../../image-1.png'
+import nanofab from '../../image-2.jpg'
+import opamp from '../../image-13.png'
+import pcb from '../../image-8.png'
+import fsm from '../../image-3.png'
+import eesite from '../../image-7.png'
+import mux from '../../image-11.png'
+import '../Projects.css';
 
 export default function Projects(){
     return (    
     <div >
     <br />
     <Container className='card-container'>
-    <Card className="text-center">
-        <Card.Img src={test}>
-        </Card.Img>
-        <Card.Body>
-        <Card.Title style={{fontSize:"30px"}}> Hardware Reliability Engineering Intern @ Cruise (GM) </Card.Title>
-        <Card.Text style={{fontSize:"20px"}}>
-            <p> May - Aug 2021</p>
-            <p> The main project I worked consisted of creating a data pipeline to funnel raw data from board sensors in the cars to a centralised storage, and creating a front end visualisation dashboard in Looker. The main technologies used in this project is SQL ( Google BigQuery and Looker) to query and clean up the raw data. The data is then stored in a database up to 3 months for long term hardware component analysis. </p>
-            <p> Due to the nature of this project, I was able to speak to many teams and learn more about vehicle hardware, such as fleet reliability, hardware/PCB testing , and data engineers. I juggled each team's inputs on what data they wanted from which boards, frequency, limitations...etc to determine an optimal implementation.</p>
-            <p> Overall, this project queries & visualises data daily from 250~ vehicles across 2 states, increased internal data retention period by ~400%, and decreased data  clutter from ~11TiB/day to 708MiB/day. </p>
-            <p> I also did a side project where I installed external sensors on vehicles with newer hardware to monitor the effect of ambient temperature on vehicle hardware. I worked with the TPM team to send those vehicles across two different states. </p>
-        </Card.Text>
-        </Card.Body>
-    </Card>
+        <ul className='card-ul'>
+            <li className='card-list'>
+                <Card >
+                    <Card.Img src={pcb}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> 
+                        EcoCar Horn Board PCB
+                        {/* hardcoding fonts before i figure out how to inherit the stuff correctly from css */}
+                    </Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technologies Used: EAGLE ECAD, LTSpice</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
     <br />
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={eesite}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Electrical Engineering Club Website</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technologies Used: Python(Django), HTML, CSS, jQuery, Nginx servers, SSH FTP</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
     <br />
-    <Card className="text-center">
-        <Card.Img src={test}>
-        </Card.Img>
-        <Card.Body>
-        <Card.Title style={{fontSize:"30px"}}> Embedded Systems Firmware Intern @ Pygo.Inc</Card.Title>
-        <Card.Text style={{fontSize:"20px"}}>
-            <p> June - Sept 2020</p>
-            <p> You will be able to find a brief showcase of my professional experiences, interests, and any relevant projects here! </p>
-        </Card.Text>
-        </Card.Body>
-    </Card>
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={mux}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Digital Multiplexer Design</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: Cadence</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
     <br />
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={opamp}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Analogue Operational Amplifier Design</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: LTSpice, Excel</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
+    <br />
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={nanofab}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Nanofabrication of Multilayer and MEMS Wafers</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: Scanning Electron Microscope, Deep Bosch RIE etch machines, optical microscopes, 4-point power probe electrical testing stations</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
+    <br />
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={fsm}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Finite State Machine in VHDL</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: ZYBO FPGA Dev Board, Xilinx VHDL</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
+    <br />
+
+
+    </ul>
     </Container>
 </div>
     )

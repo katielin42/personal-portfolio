@@ -22,7 +22,9 @@ function Footer() {
                         <i class="fab fa-git-square"></i>
                     </a>
                     </li>    
+                    <p className="footer-notes"> Copyright© 2022 Katie Lin. All rights reserved.</p>
                 </ul>
+                
                 </div>
         </div>
     )

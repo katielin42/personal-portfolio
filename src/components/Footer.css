@@ -1,15 +1,14 @@
 .footer-container {
     background: linear-gradient(90deg, rgb(36,36,36) 0%, rgb(36,36,36) 0%);
-    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    min-height: 100vx;
     position: sticky;
     top: 0;
     z-index: 999;
     color: #fff; 
-  }
+}
     .footer-icon {
         display: inline-block;
         justify-self: start;
@@ -28,5 +27,8 @@
     .links:hover{
         color: #4086db;
         transition: all 0.2s ease-out;
-
+    }
+    .footer-notes{
+        font-size:small;
+        margin-top: 10px;
     }
