@@ -8,6 +8,7 @@ import pcb from '../../image-8.png'
 import fsm from '../../image-3.png'
 import eesite from '../../image-7.png'
 import mux from '../../image-11.png'
+import dsbot from '../../image-14.png'
 import '../Projects.css';
 
 export default function Projects(){
@@ -102,7 +103,33 @@ export default function Projects(){
                 </Card>
             </li>
     <br />
-
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Img src={dsbot}>
+                    </Card.Img>
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> AI Discord Moderation Bot</Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: Node.js, Discord.js, Google NLP Dialog Flow</p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
+    <br />
+    <br/>
+            <li className='card-list'>
+                <Card className="text-center">
+                    <Card.Body>
+                    <Card.Title style={{fontSize:"30px"}}> Last but not least, this portfolio website! </Card.Title>
+                    <Card.Text style={{fontSize:"20px"}}>
+                        <p> Technology used: React.js, Surge, Bootstrap</p>
+                        <p> Built from scratch in just 2 days (but still going through iterations of bug fixes and development), I felt this would more accurately showcase my work visually. </p>
+                    </Card.Text>
+                    </Card.Body>
+                </Card>
+            </li>
+    <br />
 
     </ul>
     </Container>
