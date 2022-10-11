@@ -8,7 +8,7 @@ function Footer() {
                 <div className="footer-icon">
                 <ul>
                     <li className="footer-icon">
-                    <a className="links" href="https://www.canva.com/design/DAEnff9uxRA/J9JmR42KreRsZGCt2W-mZA/view?utm_content=DAEnff9uxRA&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"> 
+                    <a className="links" href="https://drive.google.com/file/d/1c4UvlDMgvxemgO52X4kLGTHNs9gJVZWq/view?usp=sharing"> 
                         <i class="far fa-file"></i>
                     </a>
                     </li>
