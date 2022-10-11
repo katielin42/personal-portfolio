@@ -103,20 +103,6 @@ export default function Projects(){
     <br/>
             <li className='card-list'>
                 <Card className="text-center">
-                    <Card.Img src={mux}>
-                    </Card.Img>
-                    <Card.Body>
-                    <Card.Title style={{fontSize:"30px"}}> Digital Multiplexer Design</Card.Title>
-                    <Card.Text style={{fontSize:"20px"}}>
-                        <p> Technology used: Cadence</p>
-                    </Card.Text>
-                    </Card.Body>
-                </Card>
-            </li>
-    <br />
-    <br/>
-            <li className='card-list'>
-                <Card className="text-center">
                     <Card.Img src={opamp}>
                     </Card.Img>
                     <Card.Body>
@@ -137,20 +123,6 @@ export default function Projects(){
                     <Card.Title style={{fontSize:"30px"}}> Nanofabrication of Multilayer and MEMS Wafers</Card.Title>
                     <Card.Text style={{fontSize:"20px"}}>
                         <p> Technology used: ZYGO Profilometer, Scanning Electron Microscope, Deep Bosch RIE etch machines, optical microscopes, 4-point power probe electrical testing stations</p>
-                    </Card.Text>
-                    </Card.Body>
-                </Card>
-            </li>
-    <br />
-    <br/>
-            <li className='card-list'>
-                <Card className="text-center">
-                    <Card.Img src={fsm}>
-                    </Card.Img>
-                    <Card.Body>
-                    <Card.Title style={{fontSize:"30px"}}> Finite State Machine in VHDL</Card.Title>
-                    <Card.Text style={{fontSize:"20px"}}>
-                        <p> Technology used: ZYBO FPGA Dev Board, Xilinx VHDL</p>
                     </Card.Text>
                     </Card.Body>
                 </Card>
