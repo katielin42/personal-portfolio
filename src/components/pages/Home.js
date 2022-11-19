@@ -3,13 +3,13 @@ import '../../App.css';
 import Mainsect from '../Mainsect';
 import Content from '../Content';
 
-function Home(){
-return(
+function Home() {
+  return (
     <>
-        <Mainsect />
-        <Content />
+      <Mainsect />
+      <Content />
     </>
-    );
+  );
 }
 
 export default Home;
